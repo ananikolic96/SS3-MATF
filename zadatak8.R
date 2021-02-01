@@ -1,3 +1,9 @@
+#Igra determinanta ima sledeća pravila.
+#Data je kvadratna matrica dimenzija (n x n), koja je u startu prazna i dati su brojevi {1, 2, ..., n^2}.
+#Dva igrača, jedan za drugim, popunjavaju datu matricu jednim od brojeva iz zadatog skupa (bez vraćanja).
+#Na kraju pobeđuje igrač jedan ako je determinanta dobijene matrice pozitivna, odnosno igrač dva ako je negativna.
+
+
 igra_determinanta<-function(N, matrica, ind_prvog)
 {
   n<-nrow(matrica)
