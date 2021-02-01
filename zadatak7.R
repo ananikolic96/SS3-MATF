@@ -9,7 +9,7 @@ prava_matrica<-function(matrica,dimenzija,broj_mina){
         brmina<-brmina+1
       }
       
-      #za svaku tacku se od svih mogucih tacaka u okolini biraju one
+      #za svaku tacku se od svih mogucih tacaka u okolini biraju one 
       #koje ne prelaze granice table 
       okolina<-c()
       moguce<-c(i-1,j-1,i-1,j,i-1,j+1,i,j+1,i+1,j+1,i+1,j,
